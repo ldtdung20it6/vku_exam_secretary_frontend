@@ -1,0 +1,15 @@
+.modal-dialog {
+    max-width: 90%;
+}
+
+.modal-header .btn-primary {
+    margin-left: auto;
+}
+
+.modal-body {
+    padding: 1rem;
+}
+
+.modal-footer {
+    padding: 1rem;
+}

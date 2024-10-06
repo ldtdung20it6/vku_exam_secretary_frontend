@@ -1,0 +1,124 @@
+.btn-google{
+    background-color: red !important;
+    color: white !important;
+}
+
+.btn-facebook{
+    background-color: blue !important;
+    color: white !important;
+}
+
+.btn-google:hover{
+    background-color: rgb(202, 89, 89) !important;
+    color: white !important;
+}
+
+.btn-facebook:hover{
+    background-color: rgb(99, 99, 223) !important;
+}
+
+.custom-card {
+    border-radius: 15px;
+    /* Bo góc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Viền mờ */
+    text-decoration: none;
+    /* Loại bỏ gạch chân mặc định */
+    color: inherit;
+    /* Giữ nguyên màu chữ */
+}
+
+.custom-card:hover {
+    text-decoration: none;
+    /* Loại bỏ gạch chân khi hover */
+    color: inherit;
+    /* Giữ nguyên màu chữ khi hover */
+}
+
+
+#fileContent table {
+    width: 100%;
+    /* Đảm bảo bảng chiếm toàn bộ chiều rộng của khu vực hiển thị */
+    border-collapse: collapse;
+    /* Kết hợp các đường viền của các ô */
+}
+
+#fileContent th,
+#fileContent td {
+    border: 1px solid #ddd;
+    /* Đường viền nhẹ cho các ô */
+    padding: 8px;
+    /* Khoảng cách trong các ô */
+}
+
+#fileContent th {
+    background-color: #f2f2f2;
+    /* Màu nền cho các tiêu đề cột */
+    text-align: left;
+    /* Căn trái cho tiêu đề cột */
+}
+
+#fileContent tr:nth-child(even) {
+    background-color: #f9f9f9;
+    /* Màu nền cho các hàng chẵn */
+}
+
+#fileContent tr:hover {
+    background-color: #f1f1f1;
+    /* Màu nền khi di chuột qua hàng */
+}
+
+.w-90 {
+    width: 90;
+}
+
+.custom-modal-dialog {
+    max-width: 75%;
+}
+
+.modal-content {
+    height: 80vh;
+    /* Tùy chỉnh chiều cao nếu cần */
+    overflow-y: auto;
+    /* Để có thể cuộn nếu nội dung quá dài */
+}
+
+#fileContent {
+    overflow-x: auto;
+    /* Để có thể cuộn nếu bảng quá rộng */
+}
+
+.modal-header .btn-primary {
+    margin-left: auto;
+    /* Đẩy nút "Lưu" sang bên phải */
+    margin-right: 0;
+}
+
+.sidebar {
+    background-color: #4e73df !important;
+    /* Màu nền của sidebar chính */
+}
+
+/* Đảm bảo nền của menu dropdown */
+.sidebar .collapse {
+    background-color: #4e73df !important;
+    /* Màu nền của menu dropdown */
+}
+
+/* Đảm bảo nền của các submenu */
+.sidebar .collapse-inner {
+    background-color: #4e73df !important;
+    /* Màu nền của các submenu */
+}
+
+/* Màu chữ của submenu */
+.sidebar .collapse-item {
+    color: #ffffff !important;
+    /* Màu chữ của các submenu */
+}
+
+/* Màu nền khi hover vào submenu */
+.sidebar .collapse-item:hover {
+    background-color: #2e59d9 !important;
+    /* Màu nền khi hover vào submenu */
+}
